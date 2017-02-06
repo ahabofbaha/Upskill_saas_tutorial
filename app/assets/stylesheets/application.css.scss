@@ -16,16 +16,23 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
+//typography styles
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
+
+//background gradient
 .navbar, .home-callout {
   //gradient from  @_ighosh at uigradients.com
   background: #3494E6; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3494E6 , #EC6EAD); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3494E6 , #EC6EAD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+//nav styles
 .navbar {
   border: none;
 }
@@ -37,6 +44,8 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
+
+//home page styles
 .home-callout {
     margin: -20px;
     padding-top: 50px;
