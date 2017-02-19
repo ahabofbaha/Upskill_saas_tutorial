@@ -63,7 +63,7 @@ h1, h2, h3 {
 
 //home page styles
 .home-callout {
-    margin: -20px;
+    margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 100px;
     color: white;
@@ -71,4 +71,8 @@ h1, h2, h3 {
 
 .alert-notice {
   display:none;
+}
+
+.home-signup-links {
+  margin-top:30px;
 }
